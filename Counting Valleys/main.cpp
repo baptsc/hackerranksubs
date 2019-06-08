@@ -1,6 +1,8 @@
 /**
+    This is my solution to the challenge "Counting Valleys" on Hackerrank.
+
     Challenge link : https://www.hackerrank.com/challenges/counting-valleys/problem
-**/
+*/
 
 #include <bits/stdc++.h>
 

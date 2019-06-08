@@ -1,6 +1,9 @@
 /**
+    This is my solution to the challenge "Count Luck" on Hackerrank.
+
     Challenge link : https://www.hackerrank.com/challenges/count-luck/problem
 */
+
 #include <bits/stdc++.h>
 
 using namespace std;
