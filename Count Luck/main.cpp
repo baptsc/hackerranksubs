@@ -198,6 +198,8 @@ bool findPath(vector<vector<TileType>> &grid, int i, int j, int r_size, int c_si
     }
 }
 
+
+// Auto-generated main
 int main()
 {
     ofstream fout(getenv("OUTPUT_PATH"));
