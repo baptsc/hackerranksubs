@@ -29,8 +29,8 @@ class Node
         Node(int id) :  m_children(), m_node_id(id) {}
 
         /** 
-        	Destructor of a node. Nothing special because children pointers are destructed by the graph.
-    	**/
+            Destructor of a node. Nothing special because children pointers are destructed by the graph.
+        **/
         virtual ~Node() = default;
 
         /**
@@ -203,14 +203,14 @@ class Graph
     public :
 
         /**
-			Default graph constructor.
+            Default graph constructor.
         **/
         Graph() : m_active_nodes(), m_total_nodes_count(0) {}
 
         /**
-			Main graph constructor.
+            Main graph constructor.
 
-			@param[in] nodes_count The number of nodes in the graph.
+            @param[in] nodes_count The number of nodes in the graph.
         **/
         Graph(int nodes_count) : m_active_nodes(), m_total_nodes_count(nodes_count) {}
 

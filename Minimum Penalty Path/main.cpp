@@ -20,15 +20,15 @@ class Node
         Node() = delete;
 
         /**
-        	Node constructor.
-			
-			@param[in] val Node's value.
+            Node constructor.
+            
+            @param[in] val Node's value.
         **/
         Node(int val) : m_value(val), m_children(), m_costs() {}
 
         /** 
-        	Node destructor. Nothing special, children pointers values will be deleted by graph destruction.
-    	**/
+            Node destructor. Nothing special, children pointers values will be deleted by graph destruction.
+        **/
         virtual ~Node() = default;
          
         /**
@@ -349,17 +349,17 @@ class Node
 class Graph
 {
     public :
-    	/**
-    		Graph constructor.
-    	**/
+        /**
+            Graph constructor.
+        **/
         Graph() = default;
 
         /**
-        	Graph destructor. Need to destruct dynamically allocated nodes.
+            Graph destructor. Need to destruct dynamically allocated nodes.
         **/
         virtual ~Graph()
         {
-        	for(auto p : m_nodes)
+            for(auto p : m_nodes)
             {
                 delete p.second;
             }
