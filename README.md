@@ -10,7 +10,7 @@ I use only C++ to solve challenges.
 Note : since we must submit code in a single file on Hackerrank, the whole solution to a problem is contained in a main.cpp in this repository. Sometimes when multiple classes are necessary to solve a challenge, it can make the file difficult to read, I do apologize for that.
 
 Some of the most complex challenges I solved so far :
-- "Floyd : City of Blinding Lights" (Dynamic programming, Graph theory Dijkstra/BFS algorithm)
-- "Minimum Penalty Path" (Graph theory DFS algorithm)
+- "Floyd : City of Blinding Lights" (Dynamic programming, Graphs theory Dijkstra/BFS algorithm)
+- "Minimum Penalty Path" (Graphs theory DFS algorithm)
 - "Permutation game" (Optimization, Recursion, Dynamic programming)
 - "Matrix Layer Rotation" (2D array manipulations)
