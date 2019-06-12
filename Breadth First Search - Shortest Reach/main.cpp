@@ -24,7 +24,13 @@ class Node
             @param[in] move_cost Cost to travel any edge from this node to a direct child.
         */
         Node(int value, int move_cost) : m_value(value), m_move_cost(move_cost), m_children() {} 
-        Node() = delete;
+        
+        Node() = delete; // A node requires arguments to construct.
+
+        /**
+            Node destructor. Nothing special because children nodes are destructed by the graph.
+        **/
+        virtual ~Node() = default;
 
         /**
             Inserts a direct child to the current node.
@@ -157,6 +163,8 @@ class Node
 class Graph
 {
     public :
+        Graph() = delete; // A graph can't be constructed without arguments.
+
         /**
             Graph constructor.
 
@@ -170,6 +178,9 @@ class Graph
         **/
         Graph(int max_node_value, int edges_cost) : m_all_nodes(), m_max_node_value(max_node_value), m_edges_cost(edges_cost) {}
 
+        /**
+            Graph destructor. We need to free dynamically allocated nodes.
+        **/
         virtual ~Graph() 
         {
             for(auto p : m_all_nodes)

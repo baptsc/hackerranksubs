@@ -16,11 +16,19 @@ vector<string> split_string(string);
 class Node 
 {
     public:
-        //Node constructors (requires a val).
+        //Node constructor requires a value.
         Node() = delete;
+
+        /**
+        	Node constructor.
+			
+			@param[in] val Node's value.
+        **/
         Node(int val) : m_value(val), m_children(), m_costs() {}
 
-        // Node destructor. Nothing special, children pointers values will be deleted by graph destruction.
+        /** 
+        	Node destructor. Nothing special, children pointers values will be deleted by graph destruction.
+    	**/
         virtual ~Node() = default;
          
         /**
@@ -341,6 +349,9 @@ class Node
 class Graph
 {
     public :
+    	/**
+    		Graph constructor.
+    	**/
         Graph() = default;
 
         /**

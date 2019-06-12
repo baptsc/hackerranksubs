@@ -44,11 +44,14 @@ class Vector2i
 class Path
 {
     public :
+        
+        Path() = delete; // Path requires a target to construct.
+
         /**
-            Path contructors.
+            Path contructor.
+
+            @param[in] target Target to reach.
         */
-        Path() = delete;
-        Path(const Path &other) = default;
         Path(Vector2i target) : m_moves(), m_leads_to_target(false), m_target(target) {}
 
         /**
