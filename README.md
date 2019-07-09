@@ -14,4 +14,3 @@ Some of the most complex challenges I solved so far :
 - "Frog in Maze" (Markov chains, Matrix processing optimization, Strassen algorithm)
 - "Minimum Penalty Path" (Graphs theory DFS algorithm)
 - "Permutation game" (Optimization, Recursion, Dynamic programming)
-- "Matrix Layer Rotation" (2D array manipulations)
