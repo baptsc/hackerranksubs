@@ -11,6 +11,7 @@ Note : since we must submit code in a single file on Hackerrank, the whole solut
 
 Some of the most complex challenges I solved so far :
 - "Floyd : City of Blinding Lights" (Dynamic programming, Graphs theory Dijkstra/BFS algorithm)
+- "Frog in Maze" (Markov chains, Matrix processing optimization, Strassen algorithm)
 - "Minimum Penalty Path" (Graphs theory DFS algorithm)
 - "Permutation game" (Optimization, Recursion, Dynamic programming)
 - "Matrix Layer Rotation" (2D array manipulations)
